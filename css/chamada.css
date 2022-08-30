@@ -31,7 +31,11 @@
 .chamada__botao {
     width: 100%;
 }
-
+@media screen and (max-width:375px) {
+    .chamada { 
+        padding-top: 15.25rem;
+    }
+}
 @media screen and (min-width:768px) {
     .chamada__texto {
         max-width: 600px;
@@ -43,7 +47,6 @@
         background-image: url(../img/bg-intro.jpg); 
         background-size: cover;
         padding-top: 12.25rem;
-        
     }
 
     .chamada__titulo {
